@@ -2,31 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BlockBloom Blog</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
-    body { font-family: sans-serif; background: #f9f9f9; margin: 0; padding: 20px; }
-    h1 { color: #2d2d2d; }
-    .post { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.05); }
-    .post a { text-decoration: none; color: #1a73e8; }
-    .post:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #101010;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .blog-container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .blog-post {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .blog-post h2 {
+      margin-top: 0;
+    }
+    .blog-post p {
+      color: #555;
+    }
+    .blog-post a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0e76a8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .blog-post a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
-  <nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="blog.html">Blog</a>
-  </nav>
 <body>
-  <h1>📰 BlockBloom Blog</h1>
-  <div class="post">
-    <h2><a href="https://blockbloom.substack.com/p/what-makes-a-crypto-gem" target="_blank">What Makes a Crypto Gem?</a></h2>
-    <p>How to identify low-cap, high-potential crypto tokens early. Read our first article to learn more.</p>
-  </div>
+  <header>
+    <h1>📝 Insights by BlockBloom</h1>
+    <p>Start small. Bloom big.</p>
+  </header>
 
-  <div class="post">
-    <h2><a href="https://blockbloom.substack.com" target="_blank">More Articles Coming Soon</a></h2>
-    <p>Subscribe on Substack to receive new insights as we publish.</p>
+  <div class="blog-container">
+    <div class="blog-post">
+      <h2>What Makes a Crypto Gem?</h2>
+      <p><strong>August 4, 2025</strong></p>
+      <p>Discover how to spot undervalued crypto assets before they blow up — and why timing, utility, and community matter more than hype.</p>
+      <a href="https://open.substack.com/pub/blockbloom/p/what-makes-a-crypto-gem" target="_blank">Read more →</a>
+    </div>
   </div>
 </body>
 </html>
